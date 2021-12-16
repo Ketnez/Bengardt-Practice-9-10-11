@@ -1,0 +1,15 @@
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt-prac-10.csproj.AssemblyReference.cache
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\MainWindow.g.cs
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\App.g.cs
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt-prac-10_MarkupCompile.cache
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt-prac-10_MarkupCompile.lref
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\bin\Debug\Bengardt-prac-10.exe.config
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\bin\Debug\Bengardt-prac-10.exe
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\bin\Debug\Bengardt-prac-10.pdb
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\MainWindow.baml
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt-prac-10.g.resources
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt_prac_10.Properties.Resources.resources
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt-prac-10.csproj.GenerateResource.cache
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt-prac-10.csproj.CoreCompileInputs.cache
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt-prac-10.exe
+C:\Users\ИСП-34\Source\Repos\Bengardt-prac-10\Bengardt-prac-10\obj\Debug\Bengardt-prac-10.pdb

@@ -1,0 +1,49 @@
+﻿<Window x:Class="Bengardt_Practice_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bengardt_Practice_9"
+        mc:Ignorable="d"
+        Title="Колледжиские Додики" Height="492" Width="664">
+    <Grid>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="218" Margin="10,230,0,0" VerticalAlignment="Top" Width="385"/>
+        <GroupBox Header="Поиск по улице&#xD;&#xA;" HorizontalAlignment="Left" Height="185" Margin="4,30,0,0" VerticalAlignment="Top" Width="226">
+            <Grid HorizontalAlignment="Left" Height="141" Margin="0,10,0,0" VerticalAlignment="Top" Width="205">
+                <TextBox x:Name="findStreet" HorizontalAlignment="Left" Height="23" Margin="91,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="104"/>
+                <Label Content="Улица" HorizontalAlignment="Left" Margin="7,10,0,0" VerticalAlignment="Top" Width="73"/>
+                <TextBox x:Name="result" HorizontalAlignment="Left" Height="23" Margin="94,109,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="104"/>
+                <Label Content="Количество:" HorizontalAlignment="Left" Margin="7,108,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.895,0.269"/>
+                <Button Content="Найти" HorizontalAlignment="Left" Margin="49,60,0,0" VerticalAlignment="Top" Width="145" Height="29" Click="FindStudents_Click"/>
+            </Grid>
+        </GroupBox>
+
+        <Grid Margin="0,0,10,0">
+            <GroupBox Header="Учащийся&#xD;&#xA;" HorizontalAlignment="Left" Height="330" Margin="398,25,0,0" VerticalAlignment="Top" Width="237">
+                <Grid HorizontalAlignment="Left" Height="302" Margin="10,0,-2,-1" VerticalAlignment="Top" Width="217">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="16*"/>
+                        <ColumnDefinition Width="201*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="lastName" HorizontalAlignment="Left" Height="23" Margin="72,30,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox x:Name="street" HorizontalAlignment="Left" Height="23" Margin="72,87,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox x:Name="homenumber" HorizontalAlignment="Left" Height="23" Margin="72,147,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox x:Name="home" HorizontalAlignment="Left" Height="23" Margin="72,216,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <Label Content="Фамилия:" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Label Content="Улица:" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Label Content="Дом:" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Label Content="Квартира:" HorizontalAlignment="Left" Margin="10,216,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Button Content="Добавить" HorizontalAlignment="Left" Margin="9,272,0,0" VerticalAlignment="Top" Width="157" Click="AddStudent_Click" Height="19" Grid.Column="1"/>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <Grid Margin="4,10,6,56">
+            <Menu VerticalAlignment="Top">
+                <MenuItem Header="File">
+
+                    <MenuItem Header="Выход" Click="Exit_Click"/>
+                </MenuItem>
+            </Menu>
+        </Grid>
+    </Grid>
+</Window>
